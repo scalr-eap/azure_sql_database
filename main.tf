@@ -11,7 +11,7 @@ resource "azurerm_resource_group" "example" {
 }
 
 resource "azurerm_sql_server" "example" {
-  name                         = var.sql__server_name
+  name                         = var.sql_server_name
   resource_group_name          = "${azurerm_resource_group.example.name}"
   location                     = var.region
   version                      = "12.0"
