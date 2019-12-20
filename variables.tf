@@ -10,7 +10,7 @@ variable "region" {}
 
 variable "resourcegroup" {}
 
-variable "aql__server_name" {}
+variable "sql_server_name" {}
 
 variable "server_username" {}
 
